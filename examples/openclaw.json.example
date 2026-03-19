@@ -1,0 +1,29 @@
+{
+  "plugins": {
+    "allow": ["feishu", "search-bridge"],
+    "load": {
+      "paths": [
+        "/home/<your-user>/.openclaw/lib/node_modules/openclaw/extensions/feishu",
+        "/home/<your-user>/.openclaw/search-bridge-mvp/openclaw-search-bridge-plugin"
+      ]
+    },
+    "entries": {
+      "feishu": {
+        "enabled": true
+      },
+      "search-bridge": {
+        "enabled": true
+      }
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "allow": ["search-bridge"]
+  },
+  "env": {
+    "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY",
+    "SEARCH_BRIDGE_BASE_URL": "http://127.0.0.1:8787",
+    "NO_PROXY": "127.0.0.1,localhost,::1,open.feishu.cn,.feishu.cn,open.larksuite.com,.larksuite.com",
+    "no_proxy": "127.0.0.1,localhost,::1,open.feishu.cn,.feishu.cn,open.larksuite.com,.larksuite.com"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "search-bridge",
+  "name": "Search Bridge",
+  "version": "0.1.0",
+  "description": "Local proxy-isolated search bridge tools for OpenClaw.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
